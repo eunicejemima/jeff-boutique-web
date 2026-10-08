@@ -19,21 +19,6 @@ Categories: Gowns, Frocks, Chudis, Customized Designs. Kurtis is not included.
 - esbuild (bundles the app into a single classic script so it runs from `file://`)
 - Google Apps Script (stores enquiries in Google Sheets)
 
-## Project Structure
-
-```
-jeff-boutique/
-├── public/
-│   ├── index.html          # HTML shell (loads bundle.js and styles.css)
-│   └── assets/             # Photos (see "Adding Images")
-├── src/
-│   ├── main.jsx            # Entry point
-│   ├── App.jsx             # Header, footer, and all page sections
-│   ├── Enquiry.jsx         # Enquiry form and Google Sheets submission
-│   └── styles.css          # All styling and responsive breakpoints
-├── build.sh                # Build script
-└── dist/                   # Built site (open index.html from here)
-```
 
 ## Getting Started
 
